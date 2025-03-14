@@ -23,7 +23,7 @@
             <ul class="navbar-nav ml-auto">
                 <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#"><i class="far fa-address-book"></i>About us</a>
+                    <a class="nav-link" href="#section-heading"><i class="far fa-address-book"></i>About us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./finder/finder.html"><i class="fas fa-tachometer-alt"></i>AI Finder</a>
@@ -36,15 +36,16 @@
     </nav>
     
 
-    <nav class="logo d-flex justify-content-center align-items-center" >
+
+    <div class="logo d-flex justify-content-center align-items-center pt-5" >
         <img src="fitbite.png" alt="logo" height="250px">
-    </nav>
+    </div>
 
 
-    <div class="bg-light">
+    <div class="bg-light feature " >
         <div class="container py-5">
             <div class="text-center mb-5">
-                <h1 class="section-heading display-4 mb-3">Discover Features</h1>
+                <h1 class="section-heading display-4 mb-3 discover" id="section-heading">Discover Features</h1>
                 <p class="text-muted lead">Explore our powerful tools designed to enhance your health</p>
             </div>
     
@@ -58,7 +59,7 @@
                             </svg>
                         </div>
                         <h3 class="card-title">Smart Analytics</h3>
-                        <p class="card-text text-muted">Get deep insights into your data with our advanced analytics tools.
+                        <p class="card-text text-muted">Get deep insights into our data of recipes.
                         </p>
                     </div>
                 </div>
@@ -71,21 +72,19 @@
                                 <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
                             </svg>
                         </div>
-                        <h3 class="card-title">Real-time Monitoring</h3>
-                        <p class="card-text text-muted">Monitor your systems in real-time with instant notifications.</p>
+                        <h3 class="card-title">Efficiency</h3>
+                        <p class="card-text text-muted">Helpful for cook meals out of anything.</p>
                     </div>
                 </div>
     
                 <div class="col-md-4">
                     <div class="card feature-card h-100 p-4">
                         <div class="icon-wrapper bg-soft-warning">
-                            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
-                                class="text-warning">
-                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                            </svg>
+                            <i class="m-5 bi bi-hand-thumbs-up text-warning" style="font-size: 24px;"></i>
+
                         </div>
-                        <h3 class="card-title">Advanced Security</h3>
-                        <p class="card-text text-muted">Enterprise-grade security to protect your valuable data.</p>
+                        <h3 class="card-title">Meal Planning</h3>
+                        <p class="card-text text-muted">Makes it easy to organize your meals for the week.</p>
                     </div>
                 </div>
             </div>
@@ -93,9 +92,60 @@
     </div>
 
 
+    <div class="container pt-5">
+        <div id="imageSlider" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#imageSlider" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#imageSlider" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#imageSlider" data-bs-slide-to="2"></button>
+            </div>
+    
+            <!-- Slides -->
+            <div class="carousel-inner rounded">
+                <div class="carousel-item active">
+                    <img src="gallery1.png" class="d-block w-100" alt="Beautiful Mountain">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Beautiful Mountain</h5>
+                        <p>A stunning view of a snow-capped mountain during sunset.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="gallery2.jpg" class="d-block w-100" alt="Serene Beach">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Serene Beach</h5>
+                        <p>A peaceful beach with golden sands and crystal-clear water.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="gallery3.jpg" class="d-block w-100" alt="Lush Forest">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Lush Forest</h5>
+                        <p>A dense forest with towering trees and vibrant green foliage.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#imageSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <footer class="mt-auto">
+    <footer class="mt-5">
       <div class="container">
         <div class="row">
           <div class="col-md-4 mb-3">
