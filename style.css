@@ -14,7 +14,14 @@ i {
 .navbar-logo{
 	padding: 15px;
 	color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 20px;
 }
+
+
+
+
 .navbar-mainbg{
 	background-color: #5161ce;
 	padding: 0px;
