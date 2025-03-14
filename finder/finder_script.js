@@ -56,7 +56,9 @@
             recipeDetails.innerHTML = `
             <div class='container d-flex justify-content-center align-items-center flex-column'>
                 <h1>${recipe.title}</h1>
-                <img src="${recipe.image}" alt="${recipe.title}" style="max-width: 300px;">
+                <div class='img-border'>
+                    <img src="${recipe.image}" alt="${recipe.title}" style="max-width: 300px;">
+                </div>
                 <p><strong>Ready in:</strong> ${recipe.readyInMinutes} minutes</p>
                 <div class='d-flex justify-content-center align-items-stretch flex-row'>
                     <div class='d-flex justify-content-center align-items-center flex-column ingredientlist'>
