@@ -172,3 +172,14 @@ i {
 		left: -25px;
 	}
 }
+
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 3rem 0;
+  }
+
+  .social-icons a {
+    font-size: 1.25rem;
+  }
