@@ -1,4 +1,4 @@
-# Recipe Finder & Food Chatbot
+#Aplikacja fit bite
 
 Projekt zawiera dwie główne funkcjonalności:
 1. **Recipe Finder** - Wyszukiwanie przepisów na podstawie składników.
