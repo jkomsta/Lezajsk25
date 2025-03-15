@@ -11,8 +11,9 @@ Projekt zawiera dwie główne funkcjonalności:
 2. [Plik `finder_script.js`](#plik-finder_script.js)
 3. [Plik `chatbot_script.js`](#plik-chatbot_script.js)
 4. [Plik `shared_styles.css`](#plik-shared_styles.css)
-5. [Przykładowe rozszerzenia](#przykładowe-rozszerzenia)
-6. [Wymagania](#wymagania)
+5. [Wymagania](#wymagania)
+6. [Przykładowe rozszerzenia](#przykładowe-rozszerzenia)
+7. [Jak Używać](#Jak-używać)
 
 ---
 
