@@ -1,4 +1,4 @@
-const apiKey = '0259881f19404a89b4d30687846d8647'; // zamien swoim kluczem spoonacular API
+const apiKey = 'f8a9f0043aa94c98a41201154fd0dae1'; // zamien swoim kluczem spoonacular API
 const converseUrl = 'https://api.spoonacular.com/food/converse';
 const searchUrl = 'https://api.spoonacular.com/recipes/complexSearch';
 

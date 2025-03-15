@@ -1,5 +1,5 @@
 
-        const API_KEY = '0259881f19404a89b4d30687846d8647'; // Zastąp swoim kluczem API Spoonacular
+        const API_KEY = 'f8a9f0043aa94c98a41201154fd0dae1'; // Zastąp swoim kluczem API Spoonacular
         const text = "Recipe finder";
         const speed = 60; // milisekundy na znak
         let i = 0; //uzywane w funkcji typewriter
