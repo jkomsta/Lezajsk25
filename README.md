@@ -2,7 +2,7 @@
 
 Projekt zawiera dwie główne funkcjonalności:
 1. **Recipe Finder** - Wyszukiwanie przepisów na podstawie składników.
-2. **Food Assistant** - Chatbot, który odpowiada na pytania związane z jedzeniem i sugeruje przepisy.
+2. **Food Assistant** - Chatbot sugeruje przepisy związane z podaną rzeczą. Może też przedstawiać ciekawostki o jedzeniu (food trivia).
 
 ---
 
