@@ -287,3 +287,6 @@ footer {
     background-color: #667eea;
     color: #fff;
 }
+.card{
+	overflow-y: auto;
+}
