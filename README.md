@@ -101,7 +101,7 @@ Projekt zawiera dwie główne funkcjonalności:
 ## Jak używać
 1. Sklonuj repozytorium.
 2. Wprowadź swój klucz API Spoonacular w odpowiednich miejscach w plikach `finder_script.js` i `chatbot_script.js`. (aktualnie podany jest klucz w celach testowych, nie trzeba go zmieniać)
-3. Otwórz pliki `index.html`, `chatbot.html` lub `finder.html` w przeglądarce, aby korzystać z funkcjonalności.
+3. Otwórz plik `index.html` w przeglądarce, aby korzystać z funkcjonalności.
 
 ---
 
