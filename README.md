@@ -85,7 +85,7 @@ Projekt zawiera dwie główne funkcjonalności:
 ---
 
 ## Wymagania
-- Klucz API Spoonacular (można uzyskać na stronie [Spoonacular](https://spoonacular.com/food-api)).
+- Klucz API Spoonacular (można uzyskać na stronie [Spoonacular](https://spoonacular.com/food-api)).(aktualnie podany jest klucz w celach testowych, nie trzeba go zmieniać)
 - Połączenie z internetem (skrypt korzysta z zewnętrznego API).
 
 ---
