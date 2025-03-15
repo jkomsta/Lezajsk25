@@ -11,8 +11,8 @@ Projekt zawiera dwie główne funkcjonalności:
 2. [Plik `finder_script.js`](#plik-finder_script.js)
 3. [Plik `chatbot_script.js`](#plik-chatbot_script.js)
 4. [Plik `shared_styles.css`](#plik-shared_styles.css)
-5. [Wymagania](#wymagania)
-6. [Przykładowe rozszerzenia](#przykładowe-rozszerzenia)
+5. [Przykładowe rozszerzenia](#przykładowe-rozszerzenia)
+6. [Wymagania](#wymagania)
 
 ---
 
@@ -100,7 +100,7 @@ Projekt zawiera dwie główne funkcjonalności:
 
 ## Jak używać
 1. Sklonuj repozytorium.
-2. Wprowadź swój klucz API Spoonacular w odpowiednich miejscach w plikach `finder_script.js` i `chatbot_script.js`.
+2. Wprowadź swój klucz API Spoonacular w odpowiednich miejscach w plikach `finder_script.js` i `chatbot_script.js`. (aktualnie podany jest klucz w celach testowych, nie trzeba go zmieniać)
 3. Otwórz pliki `index.html`, `chatbot.html` lub `finder.html` w przeglądarce, aby korzystać z funkcjonalności.
 
 ---
